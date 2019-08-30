@@ -1,6 +1,6 @@
 {
-  "name": "nativescript-ripple",
-  "version": "2.2.1",
+  "name": "nativescript-ripple2",
+  "version": "2.2.2",
   "description": "NativeScript plugin to add Material Design ripple effects to any layout.",
   "main": "ripple",
   "typings": "ripple.d.ts",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bradmartin/nativescript-ripple.git"
+    "url": "https://github.com/flore2003/nativescript-ripple.git"
   },
   "keywords": [
     "NativeScript",
@@ -34,8 +34,6 @@
     "Android",
     "Material Design",
     "Ripple",
-    "bradmartin",
-    "thorum",
     "TypeScript"
   ],
   "author": {
@@ -43,6 +41,11 @@
     "email": "bradwaynemartin@gmail.com"
   },
   "contributors": [
+    {
+      "name": "Florian Reifschneider",
+      "email": "florian@rocketloop.de",
+      "url": "https://github.com/flore2003"
+    },
     {
       "name": "Morten Sjøgren",
       "url": "https://github.com/m-abs"
@@ -53,13 +56,13 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bradmartin/nativescript-ripple/issues"
+    "url": "https://github.com/flore2003/nativescript-ripple/issues"
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/bradmartin/nativescript-ripple/blob/master/LICENSE"
+    "url": "https://github.com/flore2003/nativescript-ripple/blob/master/LICENSE"
   },
-  "homepage": "https://github.com/bradmartin/nativescript-ripple",
+  "homepage": "https://github.com/flore2003/nativescript-ripple",
   "readmeFilename": "README.md",
   "devDependencies": {
     "husky": "^0.14.3",

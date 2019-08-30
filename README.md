@@ -1,13 +1,13 @@
-[![npm](https://img.shields.io/npm/v/nativescript-ripple.svg)](https://www.npmjs.com/package/nativescript-ripple)
-[![npm](https://img.shields.io/npm/dt/nativescript-ripple.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-ripple)
-[![GitHub stars](https://img.shields.io/github/stars/bradmartin/nativescript-ripple.svg)](https://github.com/bradmartin/nativescript-ripple/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/bradmartin/nativescript-ripple.svg)](https://github.com/bradmartin/nativescript-ripple/network)
-[![PayPal Donate](https://img.shields.io/badge/Donate-PayPal-ff4081.svg)](https://www.paypal.me/bradwayne88)
+[![npm](https://img.shields.io/npm/v/nativescript-ripple2.svg)](https://www.npmjs.com/package/nativescript-ripple2)
+[![npm](https://img.shields.io/npm/dt/nativescript-ripple2.svg?label=npm%20downloads)](https://www.npmjs.com/package/nativescript-ripple2)
+[![GitHub stars](https://img.shields.io/github/stars/flore2003/nativescript-ripple2.svg)](https://github.com/flore2003/nativescript-ripple2/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/flore2003/nativescript-ripple2.svg)](https://github.com/flore2003/nativescript-ripple2/network)
 
 
 # NativeScript-Ripple
 NativeScript plugin to add Material Design ripple effects to any layout.
 
+**Forked from https://github.com/bradmartin/nativescript-ripple**
 
 ## Installation
 From your command prompt/termial go to your app's root folder and execute:
@@ -81,4 +81,6 @@ Please note that on Android, you can have multiple chlidren under a `<Ripple>` v
 
 
 ### Contributors
-- Morten Sjøgren @ https://github.com/m-abs **Thanks for iOS support**
+- Brad Martin @ https://github.com/bradmartin
+- Morten Sjøgren @ https://github.com/m-abs **Thanks for original iOS support**
+- Florian Reifschneider @ https://github.com/flore2003
