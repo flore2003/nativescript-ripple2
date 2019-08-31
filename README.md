@@ -13,10 +13,10 @@ NativeScript plugin to add Material Design ripple effects to any layout.
 From your command prompt/termial go to your app's root folder and execute:
 
 #### NativeScript 3.0+
-`tns plugin add nativescript-ripple`
+`tns plugin add nativescript-ripple2`
 
 #### NativeScript 2.x 
-`tns plugin add nativescript-ripple@1.1.0`
+`tns plugin add nativescript-ripple2@1.1.0`
 
 ## Demo
 
