@@ -9,7 +9,7 @@
 
 import { Color } from 'tns-core-modules/color';
 import { GestureTypes, TouchGestureEventData } from 'tns-core-modules/ui/gestures';
-import * as common from './ripple-common';
+import * as common from './ripple.common';
 
 /**
  * Native delegate class that can be used to get animation callbacks in the Javascript context

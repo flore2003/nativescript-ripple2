@@ -8,7 +8,7 @@
 /// <reference path="./node_modules/tns-platform-declarations/android.d.ts" />
 
 import { Color } from 'tns-core-modules/color';
-import * as common from './ripple-common';
+import * as common from './ripple.common';
 import {
   fadeDurationProperty,
   rippleAlphaProperty,
@@ -16,7 +16,7 @@ import {
   rippleColorProperty,
   rippleDelayClickProperty,
   rippleDurationProperty
-} from './ripple-common';
+} from './ripple.common';
 
 declare var com: any;
 
