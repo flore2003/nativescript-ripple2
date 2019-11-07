@@ -4,10 +4,10 @@
 [![GitHub forks](https://img.shields.io/github/forks/flore2003/nativescript-ripple2.svg)](https://github.com/flore2003/nativescript-ripple2/network)
 
 
-# NativeScript-Ripple
+# Material Design Ripples for NativeScript
 NativeScript plugin to add Material Design ripple effects to any layout.
 
-**Forked from https://github.com/bradmartin/nativescript-ripple**
+**This is a fork of the original `nativescript-ripple` plugin by Brad Martin (@bradmartin) which can be found at https://github.com/bradmartin/nativescript-ripple**
 
 ## Installation
 From your command prompt/termial go to your app's root folder and execute:
@@ -15,14 +15,12 @@ From your command prompt/termial go to your app's root folder and execute:
 #### NativeScript 3.0+
 `tns plugin add nativescript-ripple2`
 
-#### NativeScript 2.x 
-`tns plugin add nativescript-ripple2@1.1.0`
-
 ## Demo
 
 ![Demo](./screens/demo.gif)
 
 ### Native Android Library
+
 [Material Ripple](https://github.com/balysv/material-ripple)
 
 ## Usage
@@ -31,7 +29,7 @@ From your command prompt/termial go to your app's root folder and execute:
 ```XML
 <Page 
   xmlns="http://schemas.nativescript.org/tns.xsd" 
-  xmlns:RL="nativescript-ripple" loaded="pageLoaded">
+  xmlns:RL="nativescript-ripple2" loaded="pageLoaded">
   <ActionBar title="Ripples for Every Android" backgroundColor="#3489db" color="#fff" />
   <ScrollView>
     <StackLayout>
@@ -74,13 +72,13 @@ In the `main.ts` file, add those lines in order to use the ripple effect :
 ```
 import {registerElement} from "nativescript-angular/element-registry";
 
-registerElement("Ripple", () => require("nativescript-ripple").Ripple);
+registerElement("Ripple", () => require("nativescript-ripple2").Ripple);
 ```
 
-Please note that on Android, you can have multiple chlidren under a `<Ripple>` view, but with Ios, the `<Ripple>` view **must** have only one child element.
+Please note that on Android, you can have multiple chlidren under a `<Ripple>` view, but with iOS, the `<Ripple>` view **must** have only one child element.
 
 
 ### Contributors
-- Brad Martin @ https://github.com/bradmartin
-- Morten Sjøgren @ https://github.com/m-abs **Thanks for original iOS support**
 - Florian Reifschneider @ https://github.com/flore2003
+- Brad Martin @ https://github.com/bradmartin **Thanks for the original version**
+- Morten Sjøgren @ https://github.com/m-abs **Thanks for original iOS support**

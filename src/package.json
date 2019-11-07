@@ -1,6 +1,6 @@
 {
 	"name": "nativescript-ripple2",
-	"version": "2.2.3",
+	"version": "2.3.0",
 	"description": "NativeScript plugin to add Material Design ripple effects to any layout.",
 	"main": "ripple",
 	"typings": "index.d.ts",
@@ -12,7 +12,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/flore2003/nativescript-ripple.git"
+		"url": "https://github.com/flore2003/nativescript-ripple2.git"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -36,14 +36,14 @@
 		"TypeScript"
 	],
 	"author": {
-		"name": "Brad Martin",
-		"email": "bradwaynemartin@gmail.com"
+		"name": "Florian Reifschneider",
+		"email": "florian@rocketloop.de",
+		"url": "https://github.com/flore2003"
 	},
 	"contributors": [
 		{
-			"name": "Florian Reifschneider",
-			"email": "florian@rocketloop.de",
-			"url": "https://github.com/flore2003"
+			"name": "Brad Martin",
+			"email": "bradwaynemartin@gmail.com"
 		},
 		{
 			"name": "Morten Sjøgren",
@@ -55,13 +55,13 @@
 		}
 	],
 	"bugs": {
-		"url": "https://github.com/flore2003/nativescript-ripple/issues"
+		"url": "https://github.com/flore2003/nativescript-ripple2/issues"
 	},
 	"license": {
 		"type": "MIT",
-		"url": "https://github.com/flore2003/nativescript-ripple/blob/master/LICENSE"
+		"url": "https://github.com/flore2003/nativescript-ripple2/blob/master/LICENSE"
 	},
-	"homepage": "https://github.com/flore2003/nativescript-ripple",
+	"homepage": "https://github.com/flore2003/nativescript-ripple2",
 	"devDependencies": {
 		"tns-core-modules": "^6.0.0",
 		"tns-platform-declarations": "^6.0.0",
